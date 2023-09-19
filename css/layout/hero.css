@@ -1,0 +1,79 @@
+.hero {
+    background-color: var(--dark-navy-blue);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../../images/people-office.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url("../../images/people-office1.jpg");
+    }
+}
+
+@media (min-width: 1158px) {
+    .hero {
+        padding: 188px 0;
+        max-width: 1440px;
+    }
+}
+
+.hero-text {
+    color: var(--white-background);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    width: 220px;
+    margin: 0 auto 72px;
+    text-transform: capitalize;
+}
+
+@media (min-width: 768px) {
+    .hero-text {
+        width: 496px;
+        font-size: 56px;
+        margin: 0 auto 36px;
+        line-height: 1.07;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1158px) {
+    .hero-text {
+        margin: 0 auto 48px;
+    }
+}
+
+.hero-button {
+    display: block;
+    background-color: var(--primary-brand-iris);
+    color: var(--white-background);
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: auto;
+    padding: 16px 32px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (min-width: 1158px) {
+
+    .hero-button:hover,
+    .hero-button:focus {
+        background-color: var(--pressed-state-ocean);
+    }
+}

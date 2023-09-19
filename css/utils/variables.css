@@ -1,0 +1,15 @@
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --primary-brand-iris: #4d5ae5;
+    --pressed-state-ocean: #404bbf;
+    --dark-navy-blue: #2e2f42;
+    --sucess-green: #31d0aa;
+    --text-slate: #434455;
+    --subtle-text-light-slate: #8e8f99;
+    --accent-cornflower: #e7e9fc;
+    --light-cloud: #f4f4fd;
+    --modal-overley: #2e2f42;
+    --hero-background: #2e2f42;
+    --white-background: #ffffff;
+    --modal-background: #fcfcfc;
+}
