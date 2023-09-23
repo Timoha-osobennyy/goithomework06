@@ -3,15 +3,15 @@
 @import "./base/container.css";
 @import "./base/section.css";
 
-/* UTILS */
-@import "./utils/visually-hidden.css";
-@import "./utils/variables.css";
-
 /* LAYOUT */
 @import "./layout/header.css";
 @import "./layout/hero.css";
-@import "./layout/advantages.css";
+@import "./layout/features.css";
 @import "./layout/our-team.css";
 @import "./layout/portfolio.css";
 @import "./layout/footer.css";
 @import "./layout/modal.css";
+
+/* UTILS */
+@import "./utils/visually-hidden.css";
+@import "./utils/variables.css";
